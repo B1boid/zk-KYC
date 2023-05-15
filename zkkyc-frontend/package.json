@@ -1,0 +1,65 @@
+{
+  "name": "arch",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "craco --openssl-legacy-provider start",
+    "build": "craco --openssl-legacy-provider build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.21",
+    "autoprefixer": "^9.8.8",
+    "bn": "^1.0.5",
+    "is-ipfs": "^6.0.2",
+    "postcss": "^7.0.39",
+    "react": "~17.0.1",
+    "react-content-loader": "^6.1.0",
+    "react-dom": "~17.0.1",
+    "react-icons": "^4.3.1",
+    "react-lottie-player": "^1.4.1",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-tooltip": "^4.2.21",
+    "redux-thunk": "^2.4.1",
+    "regenerator-runtime": "~0.13.5",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.14.0",
+    "@babel/preset-env": "~7.14.0",
+    "@babel/preset-react": "~7.13.13",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "babel-jest": "~26.6.2",
+    "env-cmd": "~10.1.0",
+    "gh-pages": "~3.1.0",
+    "nft.storage": "^3.4.0",
+    "nodemon": "~2.0.3",
+    "parcel-bundler": "~1.12.4",
+    "react-scripts": "^4.0.3",
+    "react-test-renderer": "~17.0.1",
+    "shelljs": "~0.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
